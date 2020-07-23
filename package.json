@@ -1,0 +1,22 @@
+{
+  "name": "native-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "author": "elizeumatheus <elizeumatheus16@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "ws": "yarn workspaces"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "apps/*"
+    ]
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "rollup": "^2.22.2",
+    "typescript": "^3.9.7"
+  }
+}
