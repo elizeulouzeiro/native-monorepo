@@ -5,7 +5,6 @@ import resolve from "@rollup/plugin-node-resolve";
 import typescript from "rollup-plugin-typescript2";
 
 import pkg from "./package.json";
-import path from "path";
 
 const extensions = [".ts", ".tsx"];
 const input = "src/index.tsx";
