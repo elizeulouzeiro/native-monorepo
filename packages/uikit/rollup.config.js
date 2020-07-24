@@ -5,6 +5,7 @@ import resolve from "@rollup/plugin-node-resolve";
 import typescript from "rollup-plugin-typescript2";
 
 import pkg from "./package.json";
+import path from "path";
 
 const extensions = [".ts", ".tsx"];
 const input = "src/index.tsx";
@@ -20,11 +21,7 @@ const plugins = [
     extensions,
     exclude: /node_modules/,
     babelHelpers: "bundled",
-    presets: [
-      "@babel/preset-env",
-      "@babel/preset-react",
-      "@babel/preset-typescript",
-    ],
+    babelrc: true,
   }),
 ];
 

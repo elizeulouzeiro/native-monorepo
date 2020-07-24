@@ -7,7 +7,11 @@
     "jsx": "react-native",
     "declaration": true,
     "esModuleInterop": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@uikit/*": ["src/*/index", "src/*"]
+    }
   },
-  "include": ["./src/**/*"]
+  "include": ["./src/**/*", "babel.config.js"]
 }

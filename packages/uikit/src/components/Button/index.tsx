@@ -1,6 +1,6 @@
 import React from "react";
 
-import { IButton } from "../../models/button.model";
+import { IButton } from "@uikit/models/button.model";
 
 import * as S from "./styles";
 
