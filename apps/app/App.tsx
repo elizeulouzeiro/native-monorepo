@@ -5,7 +5,7 @@ import {Button} from '@native/uikit';
 const App = () => {
   return (
     <SafeAreaView>
-      <Button>oi</Button>
+      <Button onPress={() => console.log('clicou')}>Botão</Button>
     </SafeAreaView>
   );
 };
