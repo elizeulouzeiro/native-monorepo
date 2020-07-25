@@ -3,6 +3,7 @@ import commonjs from "@rollup/plugin-commonjs";
 import peerDepsExternal from "rollup-plugin-peer-deps-external";
 import resolve from "@rollup/plugin-node-resolve";
 import typescript from "rollup-plugin-typescript2";
+import ttypescript from "ttypescript";
 
 import pkg from "./package.json";
 
@@ -12,7 +13,7 @@ const input = "src/index.tsx";
 const plugins = [
   peerDepsExternal(),
   resolve({ extensions }),
-  typescript({ rollupCommonJSResolveHack: false, clean: true }),
+  typescript({ typescript: ttypescript }),
   commonjs({
     include: /node_modules/,
   }),

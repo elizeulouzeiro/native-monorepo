@@ -11,7 +11,13 @@
     "baseUrl": ".",
     "paths": {
       "@uikit/*": ["src/*/index", "src/*"]
-    }
+    },
+    "plugins": [
+      {
+        "transform": "@zerollup/ts-transform-paths",
+        "exclude": ["*"]
+      }
+    ]
   },
   "include": ["./src/**/*", "babel.config.js"]
 }
