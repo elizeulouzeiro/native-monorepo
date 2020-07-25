@@ -1,10 +1,11 @@
 import React from 'react';
 import {Login as LoginFeature} from '@native/features';
+import {Actions} from 'react-native-router-flux';
 
 import * as S from './styles';
 
 const Login = () => {
-  const onSubmit = () => console.log('submited');
+  const onSubmit = () => Actions.home();
 
   return (
     <S.Wrapper>
