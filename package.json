@@ -7,12 +7,12 @@
   "license": "MIT",
   "scripts": {
     "ws": "yarn workspace",
-    "app:start": "run-s \"ws {1} start\" --",
-    "app:clear": "run-s \"ws {1} start --reset-cache\" --",
     "app:android": "run-s \"ws {1} android\" --",
+    "app:bundle": "run-s \"ws {1} start\" --",
+    "app:bundle:clear": "run-s \"ws {1} start --reset-cache\" --",
     "app:ios": "run-s \"ws {1} ios\" --",
-    "build": "lerna run --parallel build",
-    "dev": "lerna run --parallel dev"
+    "packages:build": "lerna run build",
+    "packages:dev": "lerna run --parallel dev"
   },
   "workspaces": {
     "packages": [
