@@ -12,7 +12,7 @@ const Login: React.FC<LoginProps> = ({ onSubmit }) => {
   const [password, setPassword] = useState("");
 
   return (
-    <S.Wrapper>
+    <>
       <S.Title>Login</S.Title>
       <S.Form>
         <Input
@@ -27,7 +27,7 @@ const Login: React.FC<LoginProps> = ({ onSubmit }) => {
         />
       </S.Form>
       <Button onPress={onSubmit}>Entrar</Button>
-    </S.Wrapper>
+    </>
   );
 };
 

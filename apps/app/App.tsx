@@ -8,7 +8,7 @@ const App = () => {
   };
 
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{flex: 1, justifyContent: 'center'}}>
       <Login onSubmit={onSubmit} />
     </SafeAreaView>
   );
