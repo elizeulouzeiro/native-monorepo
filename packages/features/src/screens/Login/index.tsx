@@ -13,7 +13,6 @@ const Login: React.FC<LoginProps> = ({ onSubmit }) => {
 
   return (
     <>
-      <S.Title>Login</S.Title>
       <S.Form>
         <Input
           label="E-mail"
