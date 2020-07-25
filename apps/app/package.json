@@ -10,11 +10,15 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "@native/features": "*",
+    "@native/uikit": "*",
     "react": "16.13.1",
     "react-native": "0.63.0",
-    "styled-components": "^5.1.1",
-    "@native/uikit": "*",
-    "@native/features": "*"
+    "react-native-gesture-handler": "^1.7.0",
+    "react-native-reanimated": "^1.10.1",
+    "react-native-router-flux": "^4.2.0",
+    "react-native-screens": "^2.9.0",
+    "styled-components": "^5.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
