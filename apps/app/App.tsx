@@ -1,11 +1,15 @@
 import React from 'react';
 import {SafeAreaView} from 'react-native';
-import {Button} from '@native/uikit';
+import {Login} from '@native/features';
 
 const App = () => {
+  const onSubmit = () => {
+    console.log('submitted');
+  };
+
   return (
     <SafeAreaView>
-      <Button onPress={() => console.log('clicou')}>Botão</Button>
+      <Login onSubmit={onSubmit} />
     </SafeAreaView>
   );
 };

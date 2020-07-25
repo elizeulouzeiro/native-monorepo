@@ -10,7 +10,7 @@
     "moduleResolution": "node",
     "baseUrl": ".",
     "paths": {
-      "@uikit/*": ["src/*/index", "src/*"]
+      "@features/*": ["src/*/index", "src/*"]
     },
     "plugins": [
       {

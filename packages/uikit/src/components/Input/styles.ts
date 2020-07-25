@@ -8,6 +8,7 @@ export const Wrapper = styled.View<IInputWrapper>`
   border-style: solid;
   border-width: 1px;
   padding: 8px 16px;
+  margin-bottom: 24px;
 `;
 
 export const Label = styled.Text`

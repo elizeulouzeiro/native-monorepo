@@ -4,6 +4,7 @@
     "module": "esnext",
     "noEmit": true,
     "resolveJsonModule": true,
+    "moduleResolution": "node",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
