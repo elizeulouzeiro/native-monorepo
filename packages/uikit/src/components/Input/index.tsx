@@ -11,7 +11,7 @@ const Input: React.FC<InputProps> = ({ value, label, onChange }) => {
 
   const actions = {
     onFocus: () => setIsFocused(true),
-    onBlue: () => setIsFocused(false),
+    onBlur: () => setIsFocused(false),
   };
 
   return (

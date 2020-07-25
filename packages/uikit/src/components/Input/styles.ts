@@ -3,10 +3,9 @@ import styled from "styled-components/native";
 import { IInputWrapper } from "@uikit/models/input.model";
 
 export const Wrapper = styled.View<IInputWrapper>`
-  border-color: ${({ focused }) => (focused ? "#4a4a4a" : "#afafaf")};
+  border: ${({ focused }) =>
+    focused ? "2px solid #4a4a4a" : "1px solid #afafaf"};
   border-radius: 4px;
-  border-style: solid;
-  border-width: 1px;
   padding: 8px 16px;
   margin-bottom: 24px;
 `;
