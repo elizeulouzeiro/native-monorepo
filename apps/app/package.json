@@ -13,7 +13,7 @@
     "@native/features": "*",
     "@native/uikit": "*",
     "react": "16.13.1",
-    "react-native": "0.63.0",
+    "react-native": "0.64.1",
     "react-native-gesture-handler": "^1.7.0",
     "react-native-reanimated": "^1.10.1",
     "react-native-router-flux": "^4.2.0",
